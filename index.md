@@ -9,7 +9,7 @@ Hello, my goal in data science is to join an organization and help improve any p
 # Blog
 Throughout this course, I will write posts about data science topics I am interested in.
 ## Blog 1
-Coming soon.
+Is done.
 # Projects
 This section documents my data science projects, research questions, and data stories I create throughout the semesters.
 ---

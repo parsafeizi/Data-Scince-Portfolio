@@ -3,9 +3,8 @@ Data Science and Business Analytics Student
 UNC Charlotte
 ## About Me
 Hello, my goal in data science is to join an organization and help improve any part of the organization using data and business rules.
-## Portfolio
-- Job-Search Email Automation Agent
-- California Crime Analytics & Machine Learning Project
+- [Blog](blog.md)
+- [Projects](projects.md)
 # Blog
 Throughout this course, I will write posts about data science topics I am interested in.
 ## Blog 1

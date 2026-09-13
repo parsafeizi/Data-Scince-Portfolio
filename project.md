@@ -12,23 +12,23 @@ This project studies the relationship between NBA player salaries and regular se
 - [nba_api documentation](https://github.com/swar/nba_api/tree/master/docs)
 - [Sportradar NBA API documentation](https://developer.sportradar.com/basketball/reference/nba-overview)
 
-### 1. Problem Definition
+###  Problem Definition
 
 NBA player salaries vary widely across the league. Some players earn maximum-level contracts, while others earn smaller contracts even when they contribute meaningful production. The problem this project examines is whether basic box score performance statistics help explain differences in current annual player salary.
 
 The project focuses on association, not causation. A strong relationship between a statistic and salary does not prove that the statistic directly causes salary to increase.
 
-### 2. Research Question
+###  Research Question
 
 Which NBA player performance statistics - points, assists, rebounds, minutes played, or games played during the 2025-2026 regular season - are most strongly associated with the player's current annual salary?
 
-### 3. Context and Relevance
+###  Context and Relevance
 
 This question matters because salary is one way teams communicate player value, but salary is shaped by more than current production. Current salary may reflect earlier performance, contract timing, rookie contracts, maximum salary rules, injuries, experience, defense, team needs, leadership, and market value.
 
 For fans, analysts, and students of sports analytics, this project shows how data can reveal patterns while also showing the limits of simple statistical comparisons.
 
-### 4. Data Description
+###  Data Description
 
 The unit of analysis is one NBA player. The cleaned dataset combines one row of player performance statistics with one row of salary information for the same player.
 
@@ -50,19 +50,19 @@ The key fields are:
 - `MIN`: minutes played per game.
 - `GP`: games played.
 
-### 5. Variable Conceptualization and Operationalization
+###  Variable Conceptualization and Operationalization
 
 The main concept is player performance. In this project, performance is operationalized through five measurable statistics: points, assists, rebounds, minutes played, and games played.
 
 The outcome variable is current annual salary. Salary is treated as a numeric measure of compensation, but it is not a perfect measure of player value because contracts are negotiated under league rules and over multiple seasons.
 
-### 6. Data Collection
+###  Data Collection
 
 Performance data was collected using `nba_api`. Salary data was collected from NBA salary records and team/player salary information. Sportradar API access was used during data collection work in the notebook.
 
 The notebook included API usage during development, so the portfolio copy has been sanitized. The hardcoded Sportradar API key was removed, notebook outputs were cleared, and the copied notebook now uses an environment variable or secure `getpass` input.
 
-### 7. Data Cleaning and Preparation
+###  Data Cleaning and Preparation
 
 The salary and performance datasets were merged using official NBA player IDs instead of player names. This was important because names can be formatted differently across sources, and multiple players can have similar names. Player IDs provided a more reliable match key.
 
@@ -76,7 +76,7 @@ The cleaned CSV is included here:
 
 [projects/nba-salary-performance/data/nba_salary_performance_analysis.csv](projects/nba-salary-performance/data/nba_salary_performance_analysis.csv)
 
-### 8. Visualizations and Insights
+###  Visualizations and Insights
 
 The correlation chart shows that points per game had the strongest relationship with salary among the selected statistics. Minutes, assists, and rebounds also had positive relationships with salary. Games played had almost no relationship in the final analysis.
 
@@ -86,7 +86,7 @@ The scatterplot below focuses on points per game and salary. The upward trend sh
 
 ![Scatterplot of NBA points per game and annual salary](projects/nba-salary-performance/images/nba_points_salary_scatterplot.png)
 
-### 9. Correlation Results
+###  Correlation Results
 
 The verified correlation results were:
 
@@ -104,13 +104,13 @@ A multiple regression model was used to evaluate the selected performance statis
 
 This means that, in the regression model, points had the strongest positive standardized relationship with salary among the included variables. The R-squared value indicates that the model explained about 59.2 percent of the variation in salary within the analysis sample.
 
-### 11. Storytelling and Conclusions
+###  Storytelling and Conclusions
 
 The main story from this analysis is that scoring appears to be the clearest statistical signal connected to salary. Players who score more points per game tend to earn more, and points remained the strongest variable in the regression model.
 
 However, salary is not determined by points alone. NBA contracts are shaped by timing, league rules, prior seasons, player age, injuries, role, defensive value, team needs, leadership, and market demand. A player may be underpaid or overpaid relative to current box score production because salary often reflects expectations and negotiation context, not only present-season performance.
 
-### 12. Limitations, Ethics, and Reflection
+###  Limitations, Ethics, and Reflection
 
 This project uses public or API-accessible basketball and salary data. Even though the data concerns public professional athletes, it is still important to avoid overclaiming what the numbers mean or reducing player value to only a few statistics.
 
@@ -132,13 +132,6 @@ Responsible API use was also part of the project. API credentials should never b
 - Would advanced offensive and defensive statistics improve the model?
 - How would results change using total compensation or endorsements?
 
-**Code-review reminder:** The required instructor or TA code review still needs to be completed before submission.
-
-### 13. Code and AI Transparency
-
-The Jupyter Notebook contains the project code and data preparation process. The portfolio version has been sanitized so that no hardcoded Sportradar API key is included and notebook outputs are cleared.
-
-AI assistance was used to help organize the portfolio writeup, check for exposed credentials, sanitize the notebook copy, and prepare the GitHub Pages project page. The research question, project files, and verified statistical findings were provided by the project owner.
 
 ## Literature Context
 

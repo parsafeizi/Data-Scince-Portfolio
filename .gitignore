@@ -1,0 +1,8 @@
+.env
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.jekyll-cache/
+_site/
+.DS_Store

@@ -132,6 +132,16 @@ Responsible API use was also part of the project. API credentials should never b
 - Would advanced offensive and defensive statistics improve the model?
 - How would results change using total compensation or endorsements?
 
+## Code and AI Transparency
+
+The code used to collect, clean, merge, analyze, and visualize the data is available in my [sanitized Jupyter Notebook](projects/nba-salary-performance/nba_salary_analysis.ipynb). Performance data was collected using the `nba_api` Python package, while salary data was obtained from the Sportradar NBA API. The datasets were merged using official NBA player IDs.
+
+I used ChatGPT and Codex as supporting tools during this project. They assisted me with debugging API requests, organizing Python code, handling missing data, interpreting errors, creating visualizations, checking Markdown links, improving the clarity of the written explanations, and reviewing the project against the assignment requirements. I reviewed the suggestions, ran the code, checked the results, and made the final decisions about the research question, variables, cleaning rules, analysis, and conclusions.
+
+For security, my Sportradar API key is not included in the public repository. The published notebook obtains the key from the `SPORTRADAR_API_KEY` environment variable or requests it privately through `getpass`. Notebook outputs and execution counts were cleared before publication to prevent credentials or other unintended information from appearing publicly. The `.env` file and other credential files are excluded through `.gitignore`.
+
+The analysis can be reproduced by installing the required Python packages, providing a valid Sportradar API key privately, and running the notebook cells in order. Because API data can change over time, rerunning the notebook later may produce results that differ from the dataset used in this project.
+
 
 ## Literature Context
 

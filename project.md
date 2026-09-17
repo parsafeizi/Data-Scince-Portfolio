@@ -7,7 +7,7 @@ This project studies the relationship between NBA player salaries and regular se
 **Project files**
 
 - [Cleaned CSV](projects/nba-salary-performance/data/nba_salary_performance_analysis.csv)
-- [Sanitized Jupyter Notebook](projects/nba-salary-performance/nba_salary_analysis.ipynb)
+- [Sanitized Jupyter Notebook](https://github.com/parsafeizi/Data-Scince-Portfolio/blob/main/projects/nba-salary-performance/nba_salary_analysis.ipynb)
 - [Additional performance visualization](projects/nba-salary-performance/images/all_performance_salary_relationships.png)
 - [nba_api documentation](https://github.com/swar/nba_api/tree/master/docs)
 - [Sportradar NBA API documentation](https://developer.sportradar.com/basketball/reference/nba-overview)

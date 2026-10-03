@@ -1,0 +1,5 @@
+Model,Mean_R2,Mean_MAE,Mean_RMSE,R2_Standard_Deviation
+Linear Regression - Baseline,0.579,6075.063,8701.171,0.027
+Linear Regression - Expanded,0.774,4425.641,6379.239,0.013
+Random Forest - Baseline,0.577,6073.438,8715.1,0.026
+Random Forest - Expanded,0.85,3553.461,5197.939,0.013

@@ -1,5 +1,13 @@
 # Projects
 
+## Project Two: Predicting North Carolina Graduate Earnings
+
+How much do institution and graduation cohort improve earnings predictions beyond degree field alone? This project compares linear regression and random forest models using 1,537 program observations from participating North Carolina institutions.
+
+[Read Project Two](projects/nc-graduate-earnings/project.html) · [View the notebook](https://github.com/parsafeizi/Data-Scince-Portfolio/blob/main/projects/nc-graduate-earnings/nc_graduate_earnings_analysis.ipynb)
+
+---
+
 ## NBA Salary and Performance Analysis
 
 This project studies the relationship between NBA player salaries and regular season performance statistics. The analysis uses a cleaned sample of 369 players from the 2025-2026 regular season and compares salary with points, assists, rebounds, minutes played, and games played.

@@ -22,3 +22,9 @@ This section documents my data science projects, research questions, and data st
 [NBA Salary and Performance Analysis](project.md)
 
 This project explores which 2025-2026 NBA regular season performance statistics are most strongly associated with current annual player salary.
+
+## Project Two
+
+[Predicting North Carolina Graduate Earnings](projects/nc-graduate-earnings/project.html)
+
+This project compares linear regression and random forest models to examine how institution and graduation cohort improve predictions of five-year program median earnings beyond degree field alone.

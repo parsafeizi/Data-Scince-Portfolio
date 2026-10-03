@@ -1,0 +1,5 @@
+Model,R2,MAE,RMSE
+Linear Regression - Baseline,0.639,5862.852,8030.97
+Linear Regression - Expanded,0.812,4170.58,5796.16
+Random Forest - Baseline,0.638,5878.359,8039.808
+Random Forest - Expanded,0.874,3402.44,4747.44

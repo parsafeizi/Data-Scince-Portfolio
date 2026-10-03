@@ -170,7 +170,7 @@ Use Python 3.13.5 and install the listed dependencies, then open the notebook fr
 
 ### AI Usage Disclosure
 
-I used **OpenAI ChatGPT** to assist with brainstorming, code troubleshooting, explaining Python and scikit-learn methods, organizing the analysis, and improving writing. I reviewed the code and outputs and remain responsible for the analysis. No specific AI model version is claimed.
+I used **OpenAI ChatGPT** to assist with brainstorming, code troubleshooting, explaining Python and scikit-learn methods, organizing the analysis, and improving writing. I reviewed the code and outputs and remain responsible for the analysis.
 
 ## References
 
